@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-family: Helvetica, sans-serif;
+    padding: 10px 0 10px 10px;
+    margin: 0;
+}
+
+li:hover {
+    background-color: #3d3c3d;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+em {
+    font-size: 20px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    font-size: 15px;
+}
+
+#mainmap {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+}
+
+#search-container {
+    position: absolute;
+    z-index: 3;
+}
+
+#search-bar {
+    width: 250px;
+    max-height: 500px;
+    background-color: rgba(256, 256, 256, .9);
+    border: solid 1px yellow;
+    overflow: scroll;
+}
+
+#search-scroller {
+    background-color: rgba(256, 256, 256, .9);
+}
+
+.spot {
+    margin: 0px;
+    -font-family: Helvetica, sans-serif;
+    z-index: 3;
+}
+
+#search-input {
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+}
+
+#flickr-container {
+    float: right;
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    width: 20%;
+    text-align: right;
+    overflow: scroll;
+}
+
+.flickimg {
+    display: inline-block;
+    position: absolute;
+    padding: 0, 0;
+}
